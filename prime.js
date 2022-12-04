@@ -1,6 +1,6 @@
 let N=11;
 
-Let count=0;
+let count=0;
 
 for(let i=0;i<=N; i++) {
 
@@ -9,4 +9,4 @@ for(let i=0;i<=N; i++) {
      }
   }
 
-(count<=2)?console.log("Prime"):console.log("Not prime");
+(count==2)?console.log("Prime"):console.log("Not prime");
